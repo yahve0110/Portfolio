@@ -27,11 +27,11 @@ export const LinksDiv = () => {
         <StyledHeaderList>
             <FlexWrapper  justify={"space-between"}>
            <SocialLinks  />
-            <StyledBurger onClick={openModal}>
-                <div></div>
-                <div></div>
-                <div></div>
-            </StyledBurger>
+            {/*<StyledBurger onClick={openModal}>*/}
+            {/*    <div></div>*/}
+            {/*    <div></div>*/}
+            {/*    <div></div>*/}
+            {/*</StyledBurger>*/}
             </FlexWrapper>
             <Modal modalOpen={modalOpen} SetModalOpen = {closeModal}/>
 
