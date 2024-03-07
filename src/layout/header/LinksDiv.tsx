@@ -3,8 +3,8 @@ import {SocialLinks} from "../../components/socialLinks/SocialLinks.tsx";
 import styled from "styled-components";
 import {FlexWrapper} from "../../components/FlexWrapper.tsx";
 import {theme} from "../../GlobalStyles.ts";
-import Modal from "../../components/Modal.tsx";
-import { useState } from "react";
+// import Modal from "../../components/Modal.tsx";
+// import { useState } from "react";
 
 
 export const LinksDiv = () => {
@@ -22,7 +22,7 @@ export const LinksDiv = () => {
     // }
 
 
- 
+
     return (
         <StyledHeaderList>
             <FlexWrapper  justify={"space-between"}>
