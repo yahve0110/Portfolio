@@ -9,17 +9,17 @@ import { useState } from "react";
 
 export const LinksDiv = () => {
 
-    const [modalOpen,SetModalOpen] = useState(false)
-
-    function openModal(){
-        document.body.style.overflow = 'hidden';
-        SetModalOpen(true)
-    }
-
-    function closeModal(){
-        document.body.style.overflow = 'visible';
-        SetModalOpen(false)
-    }
+    // const [modalOpen,SetModalOpen] = useState(false)
+    //
+    // function openModal(){
+    //     document.body.style.overflow = 'hidden';
+    //     SetModalOpen(true)
+    // }
+    //
+    // function closeModal(){
+    //     document.body.style.overflow = 'visible';
+    //     SetModalOpen(false)
+    // }
 
 
  
@@ -33,7 +33,7 @@ export const LinksDiv = () => {
             {/*    <div></div>*/}
             {/*</StyledBurger>*/}
             </FlexWrapper>
-            <Modal modalOpen={modalOpen} SetModalOpen = {closeModal}/>
+            {/*<Modal modalOpen={modalOpen} SetModalOpen = {closeModal}/>*/}
 
         </StyledHeaderList>
     );
@@ -49,19 +49,19 @@ const StyledHeaderList = styled.div`
     }
 `
 
-const StyledBurger = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    cursor: pointer;
-
-    height: 34px;
-    div{
-        width: 36px;
-        height:0.2rem;
-        background-color: white;
-
-    }
-
-
-`
+// const StyledBurger = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     cursor: pointer;
+//
+//     height: 34px;
+//     div{
+//         width: 36px;
+//         height:0.2rem;
+//         background-color: white;
+//
+//     }
+//
+//
+// `
